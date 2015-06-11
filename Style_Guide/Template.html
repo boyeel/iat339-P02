@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/grid.css">
+
+  </head>
+
+  <body>
+
+    <h1>Project 01 - Style Guide</h1>
+
+    <h3>IAT 339, Boyee Lam, #301205142</h3>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+
+        <nav>
+          <div>
+            <a class="button-nav" href="#">Default Button</a>
+          </div>
+        </nav>
+
+      </section>
+
+
+
+      <section>
+        <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.link</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href=""&gt;&gt; Link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+
+        <p><a class="link">> Link</a></p>
+      </section>
+
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.sumit, .reset</p></br>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a class="submit" href=""&gt;Submit&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+
+        <nav>
+          <div>
+            <a class="submit">Submit</a>
+          </div>  
+          <div>
+            <a class="reset">Reset</a>
+          </div>  
+
+        </nav>
+
+      </section>
+
+
+
+
+      <section>
+        <h2>Text Input Field</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.comments, .form-comment</p></br>
+
+        <h3>Sample code:</h3>
+        <code>&lt;lable for ="form-subject">Subject:&lt;/lable&gt;
+          &lt;input type="text" id="form-subject" placeholder="Enter a title for your comment here"&gt;&lt;/input&gt;</code>
+
+        <h3>Rendered element:</h3>
+
+        <form id="comments" method="post" action="#">
+
+          <lable for ="form-subject">Subject:</lable>
+          <input type="text" id="form-subject" placeholder="Enter a title for your comment here"></input></br></br>
+
+          <label for="form-comment">Comment:</label></br>
+          <textarea id="form-comment" placeholder="Please write your comment here."></textarea>
+        </form>
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2></br>
+
+        <h3>CSS selector:</h3>
+        <p>h1, h2, h3</p></br>
+
+        <h3>Sample code:</h3>
+        <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code></br>
+      </br>
+
+        <h3>Rendered element:</h3>
+
+        <h1 id="head1">Heading 1</h1>
+        <p> Font: Lobster</br>
+            Size: 2.5 rem</p>
+
+        <h2>Heading 2</h2>
+        <p>Font: Lobster</br>
+            Size: 2 rem</p></br>
+
+        <h3>Heading 3</h3>
+        <p>Font: Oswald</br>
+            Size: 1 rem</p>
+
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        <p> Font: Oswald</br>
+            Size: 1 rem</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna.
+      &lt;/p&gt;</code>
+
+        <h3>Render element:</h3>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
+      </p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.bullet</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;ul class="bullet"&gt;
+            &lt;li&gt;Coffee&lt;/li&gt;
+          &lt;/ul&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+
+        <ul class="bullet">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Coca Cola</li>
+        </ul>
+
+      </section>
+
+      <section>
+
+
+        <h2>Numbered Lists</h2>
+
+        <h3>Sample code:</h3>
+          <code>
+            &lt;ol&gt;
+              &lt;li&lt;Coffee&lt;/li&gt;
+            &lt;/ol&gt;
+          </code>
+
+        <h3>Rendered element:</h3>
+        <ol>
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Coca Cola</li>
+        </ol>
+
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.col-1of6, nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="" class="button-nav logo"&gt;Lobster&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+
+        <nav class="grid">
+            <div class="col-1of6 logo">
+              <a href="" class="button-nav logo">Lobster</a>
+            </div>
+            <div class="col-1of6">
+              <a href="" class="button-nav bg1">PRODUCTS</a>
+            </div>
+            <div class="col-1of6">
+              <a href="" class="button-nav bg2">CUSTOM SHOP</a>
+            </div>
+            <div class="col-1of6">
+              <a href="" class="button-nav bg3">FIND A STORE</a>
+            </div>
+            <div class="col-1of6">
+              <a href="" class="button-nav bg4">SUPPORT</a>
+            </div>
+            <div class="col-1of6">
+              <a href="" class="button-nav bg5">INFO</a>
+            </div>
+          </nav>
+
+      </section>
+
+
+
+      <section>
+        <h2>Product Listing</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.tag</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;img src="img/guitar01.jpg" height="300" width＝"964" alt="img"&gt;
+                &lt;p&gt;Check out the new products&lt;/p&gt;
+                &lt;p&gt;&lt;a&gt;&gt; Find Out More&lt;/a&gt;&lt;/p&gt;</code>
+
+        <h3>Rendered element:</h3>
+
+          <section id="tag">
+            <figure>
+              <div class="col-1of3">
+                <img src="img/guitar01.jpg" height="300" width＝"964" alt="img">
+                <p>Check out the new products</p>
+                <p><a>> Find Out More</a></p>
+              </div>
+              <div class="col-1of3">
+                <img src="img/guitar02.jpg" height="300" width＝"964" alt="img">
+                <p> A formidable new instrument for guitarists who want the ultimate in modern humbucking tone.</p>
+                <p><a>> Find Out More</a></p>
+              </div>
+              <div class="col-1of3">
+                <img src="img/guitar03.jpg" height="300" width＝"964" alt="img">
+                <p>Find the closest store to your home or office, get directions, store hours, and contact information.</p>
+                <a>> Find Out More</a>
+               </div>
+            </figure>
+          </section>
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+    <section>
+
+      <h2>Sketches</h2>
+
+      <figure>
+
+        <h3>4K Display</h3>
+          <img src="img/desktop.jpg" width＝"800" alt="img">
+        <h3>Tablet</h3>
+          <img src="img/tablet.jpg" width＝"800" alt="img">
+        <h3>Mobile</h3>
+          <img src="img/mobile.jpg" width＝"800" alt="img">
+
+      </figure>
+
+    </section>
+
+
+  </body>
+</html>
