@@ -152,8 +152,23 @@ article {
 
 /*shopping cart table*/
 th, td {
-    padding: 2rem;
-    text-align: left;    
+    padding: 1.5rem;    
+}
+
+th{
+	background-color: #a0a644;
+	color: black;
+	text-align: left;
+}
+
+tr{
+	background-color: rgba(200, 200,200, 0.1);
+	text-align: center;
+}
+
+.subtotal{
+	background-color: rgba(200, 200,200, 0.2);
+	text-align: right;
 }
 
 .cartMargin{
