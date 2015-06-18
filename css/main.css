@@ -21,12 +21,34 @@ article {
 	transition: background-color 0.5s;
 }
 
-
-
 .button-nav:hover, .button-nav:active, .button-nav:focus {
 	background-color: #f6ff68;
 	color: black;
 }
+
+.products-nav {
+	width: 100%;
+}
+
+.products-nav, .products-nav:visited{
+	display: inline-block;
+	background-color: #a0a644;
+	color: black;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.products-nav:hover, .products-nav:active, .products-nav:focus {
+	color: #f6ff68;
+}
+
+.pClicked, .pClicked:visited{
+	color: white;
+	font-weight: bold;
+}
+
 
 .logo{
 	font-family: 'Lobster', cursive;
@@ -34,23 +56,32 @@ article {
 }
 
 .logo, .logo:visited{
-	background-color: #f6ff68;
-	color: black;
-}
-
-.logo:hover, .logo:active, .logo:focus{
-	background-color:black;
+	background-color: black;
 	color: #f6ff68;
 }
 
-
-section{
-	margin-top: 3rem;
-	margin-bottom: 20rem;
+.logo:hover, .logo:active, .logo:focus{
+	background-color:#f6ff68;
+	color: black;
 }
 
+.clicked, .clicked:visited{
+	background-color:#f6ff68;
+	color: black;
+}
+
+.span{
+	float: left;
+	margin-left: 3%;
+}
+
+
 #cover{
-	margin: 0;
+	margin-bottom: 2rem;
+}
+
+#productList{
+	margin-top: 5rem;
 }
 
 body{
@@ -74,8 +105,10 @@ body {
 h1 {
 	font-family: 'Lobster', cursive;
 	font-size: 2.5rem; 
-	margin-left: auto;
-    margin-right: auto;
+	text-align: center;
+    color: #f6ff68;
+    background: #a0a644;
+    margin:-0.03rem;
 }
 
 
