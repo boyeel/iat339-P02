@@ -1,0 +1,132 @@
+article {
+	text-align: left;
+	margin: 2rem 0; 
+	padding: 2rem; 
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.button-nav {
+	width: 100%;
+}
+
+.button-nav, .button-nav:visited {
+	display: inline-block;
+	background-color: black;
+	color: #FFFFFF;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+
+
+.button-nav:hover, .button-nav:active, .button-nav:focus {
+	background-color: #f6ff68;
+	color: black;
+}
+
+.logo{
+	font-family: 'Lobster', cursive;
+	font-size: 1.08rem;
+}
+
+.logo, .logo:visited{
+	background-color: #f6ff68;
+	color: black;
+}
+
+.logo:hover, .logo:active, .logo:focus{
+	background-color:black;
+	color: #f6ff68;
+}
+
+
+section{
+	margin-top: 3rem;
+	margin-bottom: 20rem;
+}
+
+#cover{
+	margin: 0;
+}
+
+body{
+
+	background-image: url("img/guitar03.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: black;
+}
+
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	font-size: 1em; 
+	color: white;
+	padding: 1em;
+}
+
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 2.5rem; 
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2 {
+	font-family: 'Lobster', cursive;
+	font-weight: normal;
+	font-size: 2rem; 
+}
+
+
+h2{
+	font-style: italic;
+}
+
+
+p, ul, ol {
+	font-size: 1rem;
+	line-height: 1.3em; 
+	text-align: left;
+}
+
+
+img {
+	height: auto; 
+	width: auto;
+	max-width: 100%;
+}
+
+
+figure {
+	margin: 0;
+}
+
+
+figcaption {
+	font-size: 0.8rem;
+	font-style: italic;
+}
+
+
+a {
+	color: #007FFF; 
+}
+
+
+a:visited {
+	color: #8968CD;
+}
+
+
+a:active, a:hover {
+	color: #888888; 
+	text-decoration: none;
+}
