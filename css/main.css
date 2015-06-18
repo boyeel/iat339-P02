@@ -7,6 +7,7 @@ article {
 }
 
 
+/*main nav*/
 .button-nav {
 	width: 100%;
 }
@@ -26,6 +27,30 @@ article {
 	color: black;
 }
 
+.clicked, .clicked:visited{
+	background-color:#f6ff68;
+	color: black;
+}
+
+
+/*logo on the main nav*/
+.logo{
+	font-family: 'Lobster', cursive;
+	font-size: 1.08rem;
+}
+
+.logo, .logo:visited{
+	background-color: black;
+	color: #f6ff68;
+}
+
+.logo:hover, .logo:active, .logo:focus{
+	background-color:#f6ff68;
+	color: black;
+}
+
+
+/*products page second nav*/
 .products-nav {
 	width: 100%;
 }
@@ -44,35 +69,27 @@ article {
 	color: #f6ff68;
 }
 
+
+/*product list*/
 .pClicked, .pClicked:visited{
 	color: white;
 	font-weight: bold;
 }
 
-
-.logo{
-	font-family: 'Lobster', cursive;
-	font-size: 1.08rem;
-}
-
-.logo, .logo:visited{
-	background-color: black;
-	color: #f6ff68;
-}
-
-.logo:hover, .logo:active, .logo:focus{
-	background-color:#f6ff68;
-	color: black;
-}
-
-.clicked, .clicked:visited{
-	background-color:#f6ff68;
-	color: black;
-}
-
 .span{
 	float: left;
 	margin-left: 3%;
+}
+
+
+/*products page span*/
+.pSpan{
+	float: left;
+	margin-left: 4%;
+}
+
+.pSpan:hover{
+	color:#f6ff68;
 }
 
 
@@ -83,6 +100,66 @@ article {
 #productList{
 	margin-top: 5rem;
 }
+
+
+/*check out button*/
+.checkOut{
+  display:inline-block;
+  padding:1rem 2rem;
+  text-decoration:none;
+  color: white;
+  float: right;
+}
+
+.checkOut{
+  background-color:#f6ff68;
+  color: black;
+  border-radius:0.5rem;
+  margin:0.25rem 0.5rem;
+  text-decoration:none;
+}
+
+.checkOut:hover{
+  background-color:#f2d848;
+  color:black;
+  text-decoration: none;
+}
+
+
+/*check out button*/
+.shopping{
+  display:inline-block;
+  padding:1rem 2rem;
+  text-decoration:none;
+  color: white;
+  float: left;
+}
+
+.shopping{
+  background-color:rgb(100, 100, 100);
+  color: #f6ff68;
+  border-radius:0.5rem;
+  margin:0.25rem 0.5rem;
+  text-decoration:none;
+}
+
+.shopping:hover{
+  background-color:#f2d848;
+  color:black;
+  text-decoration: none;
+}
+
+
+/*shopping cart table*/
+th, td {
+    padding: 2rem;
+    text-align: left;    
+}
+
+.cartMargin{
+	margin-left:2rem;
+}
+
 
 body{
 
@@ -107,8 +184,6 @@ h1 {
 	font-size: 2.5rem; 
 	text-align: center;
     color: #f6ff68;
-    background: #a0a644;
-    margin:-0.03rem;
 }
 
 
@@ -123,11 +198,16 @@ h2{
 	font-style: italic;
 }
 
+h3{
+	color: #f6ff68;
+}
+
 
 p, ul, ol {
 	font-size: 1rem;
 	line-height: 1.3em; 
 	text-align: left;
+	color: rgb(180, 180, 180);
 }
 
 

@@ -31,8 +31,16 @@
 	width:25%;
 }
 
+.col-2of5{
+	width:40%;
+}
+
 .span{
 	width: 30%;
+}
+
+.pSpan{
+	width:21%
 }
 
 
