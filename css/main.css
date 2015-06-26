@@ -1,0 +1,201 @@
+article {
+	text-align: left;
+	margin: 2rem 0; 
+	padding: 2rem; 
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*main nav*/
+.button-nav {
+	width: 100%;
+}
+
+.button-nav, .button-nav:visited {
+	display: inline-block;
+	background-color: black;
+	color: gray;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.button-nav:hover, .button-nav:active, .button-nav:focus {
+	color: #f6ff68;
+}
+
+.clicked, .clicked:visited{
+	background-color:#f6ff68;
+	color: black;
+}
+
+
+/*logo on the main nav*/
+.logo{
+	font-family: 'Lobster', cursive;
+	font-size: 0.98rem;
+}
+
+.logo, .logo:visited{
+	background-color: black;
+	color: #f6ff68;
+}
+
+.logo:hover, .logo:active, .logo:focus{
+	background-color:#f6ff68;
+	color: black;
+}
+
+
+/*product list*/
+#cover{
+	margin-bottom: 5%;
+}
+
+.span{
+	float: left;
+	margin-right: 5%;
+}
+
+
+
+div.span:last-of-type{
+	float:right;
+	margin-right:0%;
+}
+
+/*check out button*/
+.checkOut{
+  display:inline-block;
+  padding:1rem 2rem;
+  text-decoration:none;
+  color: white;
+  float: right;
+}
+
+.checkOut{
+  background-color:#f6ff68;
+  color: black;
+  border-radius:0.5rem;
+  margin:0.25rem 0.5rem;
+  text-decoration:none;
+}
+
+.checkOut:hover{
+  background-color:#f2d848;
+  color:black;
+  text-decoration: none;
+}
+
+body{
+
+	background-image: url("img/guitar03.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: black;
+}
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-size: 1em; 
+	color: white;
+	padding: 1em;
+}
+
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-size: 2.5rem; 
+	text-align: center;
+	margin: 5rem 0;
+    color: #f6ff68;
+}
+
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	font-size: 2rem; 
+	margin-bottom: 5rem;
+}
+
+
+
+p, ul, ol {
+	font-size: 1rem;
+	line-height: 1.3em; 
+	text-align: center;
+	color: rgb(180, 180, 180);
+}
+
+
+img {
+	height: auto; 
+	width: auto;
+	max-width: 100%;
+}
+
+
+figure {
+	margin: 0;
+}
+
+
+figcaption {
+	font-size: 0.8rem;
+	font-style: italic;
+}
+
+a, a:visited {
+	color: #007FFF;
+	text-decoration: none;
+}
+
+
+a:active, a:hover {
+	color: #888888; 
+	text-decoration: none;
+}
+
+.event{
+    width:100%;
+    height:100%;
+    border:0;
+    position:relative;
+} 
+
+.event_title{
+	position:absolute;
+	top:23em;
+	right:30em;
+
+	text-align:center;
+	color:black;
+	font-size:1em;
+	font-family: 'Lobster', cursive;
+	font-size: 1.4rem;
+}
+.event_content{
+	position:absolute;
+	top:35em;
+	right:35em;
+
+	text-align:center;
+	color:black;
+	
+}
+
+.down_arraw{
+	position:absolute;
+	top:10em;
+	right:-3em;
+
+	text-align:center;
+	color:black;
+}
+
