@@ -1,0 +1,79 @@
+
+
+#image1
+{    
+    padding:0;
+    margin:0;
+    left:0;
+}
+
+
+
+#image2
+{    
+    padding:0;
+    margin:0;
+    left:0;
+}
+
+
+#image3
+{    
+
+    padding:0;
+    margin:0;
+    left:0;
+}
+
+figure {
+    /*
+        Setting float to right means that text will wrap to the left
+        of our image and caption
+    */
+    float: left;
+
+    /* 
+        We add some padding here to make sure that when our text is
+        wrapping around our image and caption, that there is some space
+        in between
+    */
+
+    /*
+        By setting a positioning for our figure tag, any absolutely
+        positioned elements (inside the tag) remain inside
+    */
+    position: relative;
+    width: 100%;
+}
+
+figcaption {
+    /*
+        Setting position to absolute for our caption allows us to
+        position it overtop of the image
+    */
+    position: absolute;
+
+
+    bottom: 2em;
+    right: 2em;
+    /*
+        Setting a z-index allows us to layer things differently, the
+        default is 0 and any higher values layer items overtop
+        z-index only works if a positioning has been set.
+    */  
+    z-index: 10;
+
+    color: white;
+}
+
+h4{
+    font-size:3em;
+    padding:0;
+
+
+}
+h5{
+    font-size:1.2em;
+
+}
+

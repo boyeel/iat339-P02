@@ -1,0 +1,46 @@
+h3{
+	text-align: center;
+	color: rgba(250, 250, 250, 0.8);
+	margin-bottom: 5rem;
+}
+
+
+/*check out button*/
+.checkOut, .checkOut:visited{
+  color: black;
+}
+
+
+.checkOut:hover{
+  color: black;
+}
+
+/*shopping button*/
+.shopping{
+  display:inline-block;
+  padding:1rem 2rem;
+  text-decoration:none;
+  color: white;
+}
+
+.shopping, .shopping:visited{
+  background-color:rgb(100, 100, 100);
+  color: #f6ff68;
+  border-radius:0.5rem;
+  margin:0.25rem 0.5rem;
+  text-decoration:none;
+}
+
+.shopping:hover{
+  background-color:#f2d848;
+  color:black;
+  text-decoration: none;
+}
+
+#backToMain{
+	padding-left: 20rem;
+}
+
+#goProduct{
+	padding-right: 8rem;
+}

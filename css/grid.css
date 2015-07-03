@@ -24,7 +24,7 @@
 	width:16.666666%;
 }
 .col-1of3{
-	width:33.33333333333%;
+	width:33%;
 }
 
 .col-1of4{
@@ -33,6 +33,10 @@
 
 .col-2of5{
 	width:40%;
+}
+
+.col-1of2{
+	width:45%
 }
 
 .span{
@@ -47,6 +51,18 @@
 @media (max-width:50rem){
 	.col-1of6{
 		width:33.333%;
+	}
+
+	.col-1of4{
+		width:40%;
+	}
+
+	.content{
+		margin:0;
+	}
+
+	#cover{
+		visibility:visible;
 	}
 }
 
@@ -65,13 +81,19 @@
 
 	.col-1of4{
 		width:100%;
-		padding:1rem;
-		padding-left: 0rem;
+	}
+
+	.col-1of2{
+		width:100%;
 	}
 
 	.span{
 		margin-left: 0;
 	}
 
+	#cover{
+		visibility: hidden;
+		margin-bottom: -5rem;
+	}
 }
 

@@ -1,0 +1,57 @@
+/*products page second nav*/
+.products-nav {
+	width: 100%;
+	background-color: transparent;
+}
+
+.products-nav, .products-nav:visited{
+	color: rgba(255,255, 255, 0.75);
+	text-decoration: none;
+}
+
+.products-nav:hover, .products-nav:active, .products-nav:focus {
+	color: #f6ff68;
+}
+
+.secNavClicked, .secNavClicked:visited{
+	color: #f6ff68;
+}
+
+/*products page span*/
+.pClicked, .pClicked:visited{
+	color: black;
+}
+
+.pSpan{
+	float: left;
+	padding: 3rem 1rem 0 1rem;
+	margin-right: 5%;
+}
+
+.pSpan:last-of-type{
+	float: right;
+	margin-right: 0%;
+}
+
+
+h3{
+	text-align: center;
+	color: white;
+}
+
+a, a:visited{
+	color: gray;
+}
+
+.productList, .productList:visited{
+	width:100%;
+	display: inline-block;
+}
+
+.pSpan:hover, .productList:active, .productList:focus {
+	background-color: rgb(50, 50, 50);
+	text-decoration: none;
+	color: #007FFF;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}

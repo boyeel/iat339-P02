@@ -1,3 +1,25 @@
+*, body{
+	margin: 0;
+	padding:0;
+	border: 0;
+}
+
+html {
+  display: block;
+}
+
+html, body {
+   margin-left: -1rem;
+   margin-right: -0.5rem;
+   margin-top: -0.5rem;
+   padding: 0rem;
+}
+
+.content{
+	margin:0 5rem;
+}
+
+
 article {
 	text-align: left;
 	margin: 2rem 0; 
@@ -10,21 +32,21 @@ article {
 /*main nav*/
 .button-nav {
 	width: 100%;
+	font-weight: bolder;
 }
 
 .button-nav, .button-nav:visited {
 	display: inline-block;
 	background-color: black;
-	color: #FFFFFF;
-	padding: 1em 1.25em;
+	color: rgba(250,250, 250, 0.9);
+	padding: 1.3em 1.25em;
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 }
 
 .button-nav:hover, .button-nav:active, .button-nav:focus {
-	background-color: #f6ff68;
-	color: black;
+	color: #f6ff68;
 }
 
 .clicked, .clicked:visited{
@@ -36,7 +58,8 @@ article {
 /*logo on the main nav*/
 .logo{
 	font-family: 'Lobster', cursive;
-	font-size: 1.08rem;
+	font-size: 1.6rem;
+	padding:0.9rem;
 }
 
 .logo, .logo:visited{
@@ -50,57 +73,23 @@ article {
 }
 
 
-/*products page second nav*/
-.products-nav {
-	width: 100%;
-}
-
-.products-nav, .products-nav:visited{
-	display: inline-block;
-	background-color: #a0a644;
-	color: black;
-	padding: 1em 1.25em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
-
-.products-nav:hover, .products-nav:active, .products-nav:focus {
-	color: #f6ff68;
-}
-
-
 /*product list*/
-.pClicked, .pClicked:visited{
-	color: white;
-	font-weight: bold;
+#cover{
+	margin-bottom: 5%;
 }
 
 .span{
 	float: left;
-	margin-left: 3%;
+	margin-right: 5%;
+	margin-bottom: 3rem;
 }
 
 
-/*products page span*/
-.pSpan{
-	float: left;
-	margin-left: 4%;
+
+div.span:last-of-type{
+	float:right;
+	margin-right:0%;
 }
-
-.pSpan:hover{
-	color:#f6ff68;
-}
-
-
-#cover{
-	margin-bottom: 2rem;
-}
-
-#productList{
-	margin-top: 5rem;
-}
-
 
 /*check out button*/
 .checkOut{
@@ -125,57 +114,6 @@ article {
   text-decoration: none;
 }
 
-
-/*check out button*/
-.shopping{
-  display:inline-block;
-  padding:1rem 2rem;
-  text-decoration:none;
-  color: white;
-  float: left;
-}
-
-.shopping{
-  background-color:rgb(100, 100, 100);
-  color: #f6ff68;
-  border-radius:0.5rem;
-  margin:0.25rem 0.5rem;
-  text-decoration:none;
-}
-
-.shopping:hover{
-  background-color:#f2d848;
-  color:black;
-  text-decoration: none;
-}
-
-
-/*shopping cart table*/
-th, td {
-    padding: 1.5rem;    
-}
-
-th{
-	background-color: #a0a644;
-	color: black;
-	text-align: left;
-}
-
-tr{
-	background-color: rgba(200, 200,200, 0.1);
-	text-align: center;
-}
-
-.subtotal{
-	background-color: rgba(200, 200,200, 0.2);
-	text-align: right;
-}
-
-.cartMargin{
-	margin-left:2rem;
-}
-
-
 body{
 
 	background-image: url("img/guitar03.jpg");
@@ -186,7 +124,7 @@ body{
 
 
 body {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: lighter;
 	font-size: 1em; 
 	color: white;
@@ -195,33 +133,28 @@ body {
 
 
 h1 {
-	font-family: 'Lobster', cursive;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
 	font-size: 2.5rem; 
 	text-align: center;
+	margin: 5rem 0;
     color: #f6ff68;
 }
 
 
 h2 {
-	font-family: 'Lobster', cursive;
-	font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
 	font-size: 2rem; 
+	margin-bottom: 5rem;
 }
 
-
-h2{
-	font-style: italic;
-}
-
-h3{
-	color: #f6ff68;
-}
 
 
 p, ul, ol {
 	font-size: 1rem;
 	line-height: 1.3em; 
-	text-align: left;
+	text-align: center;
 	color: rgb(180, 180, 180);
 }
 
@@ -243,14 +176,9 @@ figcaption {
 	font-style: italic;
 }
 
-
-a {
-	color: #007FFF; 
-}
-
-
-a:visited {
-	color: #8968CD;
+a, a:visited {
+	color: #007FFF;
+	text-decoration: none;
 }
 
 
@@ -294,5 +222,5 @@ a:active, a:hover {
 
 	text-align:center;
 	color:black;
-	
 }
+
