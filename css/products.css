@@ -55,3 +55,12 @@ a, a:visited{
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 }
+
+@media(max-width: 50rem){
+	.products-nav{
+		font-size: 1.5rem;
+	}
+	h1{
+		margin:1rem;
+	}
+}

@@ -78,3 +78,25 @@ input[type="gray"]{
   width:100%;
   padding:0.35rem;
 }
+
+@media (max-width:50rem){
+  .col-1of3{
+    width:100%;
+    padding:0 5rem;
+  }
+  .checkOut{
+    margin-right: -4rem
+  }
+}
+
+@media (max-width:30rem){
+  .col-1of3{
+    width:100%;
+    padding:0 2rem;
+  }
+  .checkOut{
+    margin-top: -3.4rem;
+    margin-right: -1rem;
+  }
+}
+

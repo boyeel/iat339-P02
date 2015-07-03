@@ -21,7 +21,7 @@ section:not([id]) {
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: 2.5rem; 
   margin-left: auto;
   margin-right: auto;
@@ -29,7 +29,7 @@ h1 {
 
 
 h2 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-size: 2rem; 
 }
@@ -56,20 +56,25 @@ section code {
 .button-nav {
   width: 15%;
   text-align: center;
+  font-weight: bolder;
 }
 
 .button-nav, .button-nav:visited {
   display: inline-block;
   background-color: black;
-  color: #FFFFFF;
-  padding: 1em 1.25em;
+  color: rgba(250,250, 250, 0.9);
+  padding: 1.3em 1.25em;
   text-decoration: none;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
 
 .button-nav:hover, .button-nav:active, .button-nav:focus {
-  background-color: #f6ff68;
+  color: #f6ff68;
+}
+
+.clicked, .clicked:visited{
+  background-color:#f6ff68;
   color: black;
 }
 

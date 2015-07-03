@@ -38,9 +38,36 @@ h3{
 }
 
 #backToMain{
-	padding-left: 20rem;
+	margin-left: 6rem;
 }
 
 #goProduct{
 	padding-right: 8rem;
 }
+
+
+@media(max-width: 80rem){
+	#goProduct{
+		float:right;
+		margin-top: -4rem;
+	}
+}
+
+@media(max-width: 50rem){
+	#goProduct{
+		float:right;
+		margin-top: -4rem;
+	}
+}
+
+@media(max-width: 50rem){
+	#backToMain{
+		margin-left: 1rem;
+	}
+	#goProduct{
+		margin-left: 5.5rem;
+		margin-top: 0rem;
+		padding-right: 0rem;
+	}
+}
+

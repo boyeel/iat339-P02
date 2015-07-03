@@ -99,3 +99,13 @@ a, a:hover{
 	float:right;
 	margin-right: 1rem;
 }
+
+@media(max-width: 30rem){
+	#info{
+		padding-bottom: 5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-top: 3rem;
+	}
+
+}
