@@ -28,6 +28,10 @@ article {
 	box-sizing: border-box;
 }
 
+.smallNav{
+	margin-left: 1rem;
+}
+
 
 /*main nav*/
 .button-nav {
@@ -83,7 +87,6 @@ article {
 	margin-right: 5%;
 	margin-bottom: 3rem;
 }
-
 
 
 div.span:last-of-type{
@@ -224,3 +227,91 @@ a:active, a:hover {
 	color:black;
 }
 
+
+/*small nav*/
+.smallNav{
+	visibility: hidden;
+	display: none;
+}
+
+.dd-button, .dd-button:visited{
+	font-family: 'Raleway', sans-serif;
+	transition: background-color 0.5s ease-out;
+	font-weight: bolder;
+	text-decoration: none;
+	color: white;
+}
+
+.hide{
+	visibility: hidden;
+	opacity:0;
+}
+
+/*only the child of dd*/
+.dd > .dd-list{
+	position: absolute;
+}
+
+.dd:hover > .dd-list{
+	visibility:visible;
+	opacity: 1;
+}
+
+.dd:hover > .dd-button{
+	background-color: #f6ff68;
+	color: black;
+}
+
+.leftSide{
+	text-align: center;
+}
+
+
+.smenu, .smenu:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.smenu:hover, .smenu:focus, .smenu:active {
+	text-decoration: none;
+	color: black;
+	background-color: #f6ff68;
+}
+
+.dd {
+	position: relative;
+}
+
+.dd-list {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+li {
+	list-style-type: none;
+}
+
+.dd-list li a {
+	display: block;
+	width: 300%;
+	margin-left: -16.5rem;
+	padding: 1em 6em;
+	background-color: rgba(0,0,0,0.75);
+	list-style-type: none;
+	text-align: left;
+}
+
+.dd-button {
+	display: block;
+	color: white;
+	background-color: black;
+	padding: 1.3em 1.25em;
+	text-decoration: none;
+	margin-top: -1rem;
+}
+
+.dd-button:hover {
+	background-color: #f6ff68;
+	color: black;
+}
