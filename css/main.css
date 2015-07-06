@@ -297,6 +297,7 @@ li {
 	width: 300%;
 	margin-left: -16.5rem;
 	padding: 1em 6em;
+	font-weight: bolder;
 	background-color: rgba(0,0,0,0.75);
 	list-style-type: none;
 	text-align: left;
